@@ -2,7 +2,7 @@ include https://raw.githubusercontent.com/codemonstur/bobfiles/master/foss-lib-g
 
 vendor: com.github.codemonstur
 name: extension-jooq
-version: 1.0.0
+version: 1.0.1
 packaging: jar
 release: 11
 description: Utility classes for using JOOQ
