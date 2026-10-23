@@ -13,4 +13,4 @@ developer:
   email: jegvoorneveld@gmail.com
 enablePreview: false
 dependencies:
-  - repository: org.jooq:jooq:3.17.7
+  - repository: org.jooq:jooq:3.21.9

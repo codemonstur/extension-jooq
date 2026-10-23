@@ -1,9 +1,6 @@
 package extension.jooq;
 
-import org.jooq.DSLContext;
-import org.jooq.Field;
-import org.jooq.Table;
-import org.jooq.UpdateSetMoreStep;
+import org.jooq.*;
 import org.jooq.Record;
 
 import java.util.function.Function;
