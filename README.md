@@ -12,6 +12,6 @@ Some extra's for using JOOQ.
 <dependency>
   <groupId>com.github.codemonstur</groupId>
   <artifactId>extension-jooq</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
 </dependency>
 ```
