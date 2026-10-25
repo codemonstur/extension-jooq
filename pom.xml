@@ -38,6 +38,8 @@
         
         <maven.compiler.release>11</maven.compiler.release>
 
+        <maven.version>[3.6.3,)</maven.version>
+
         <version.library.jooq>3.21.9</version.library.jooq>
 
         <version.plugin.check-cves>1.1.0</version.plugin.check-cves>
@@ -76,8 +78,8 @@
                         <configuration>
                             <rules>
                                 <requireMavenVersion>
-                                    <version>[3.6.3,)</version>
-                                    <message>This project requires Maven 3.6.3 or newer to build</message>
+                                    <version>${maven.version}</version>
+                                    <message>This project requires Maven ${maven.version} to build</message>
                                 </requireMavenVersion>
                             </rules>
                         </configuration>
