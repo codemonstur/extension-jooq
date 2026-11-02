@@ -324,4 +324,13 @@
         </profile>
 </profiles>
 
+    <repositories>
+        <repository>
+            <id>spring-libs-milestone</id>
+            <url>https://repo.maven.org/maven2</url>
+            <releases><enabled>false</enabled></releases>
+            <snapshots><enabled>false</enabled></snapshots>
+        </repository>
+    </repositories>
+
 </project>
